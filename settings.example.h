@@ -7,7 +7,15 @@
 #define PASSWORD "xxxxxxx"
 #define HOSTNAME "xxxxxxx"
 #define PORT 80
-#define TOKEN "xxxxxxx"
+
+#define SWITCHBOT_API_HOSTNAME "api.switch-bot.com"
+#define SWITCHBOT_API_TOKEN "xxxxxxx"
+
+#define MYSELF_API_HOSTNAME "example.com"
+#define MYSELF_API_TOKEN "xxxxxxx"
+
+#define SUMMAR_DEVICE_ID "xxxxxxx"
+#define WINTER_DEVICE_ID "xxxxxxx"
 
 #define SCENE_ID_OFF "xxxxxxx"
 #define SCENE_ID_DAYLIGHT "xxxxxxx"
