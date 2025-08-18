@@ -9,7 +9,7 @@ const int port = PORT;
 const int RESPONSE_TIMEOUT_MILLIS = 5000;
 
 // 動作設定
-const int PRESSED_DURATION = 500;
+const int PRESSED_DURATION = 100;
 const int FETCH_INTERVAL = 60 * 60 * 1000;
 unsigned long lastMillis;
 int lastElectricity = -1;
@@ -67,7 +67,7 @@ void setup()
   lastMillis = 0;
 
   M5.Lcd.print("Init OK.");
-  delay(3000);
+  delay(2000);
 }
 
 /**
